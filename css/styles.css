@@ -255,5 +255,17 @@ video {
 
 #contactform {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#contactform label {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#contactform input {
+    height: 10vh;
+    width: 100vh;
+    margin-top: 5%;
 }
