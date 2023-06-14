@@ -174,3 +174,21 @@ footer {
     height: 20vh;
     background-color: #FE7A71;
 }
+
+/* SEE-DO PAGE */
+
+video {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.see_do_img {
+    display: flex;
+    justify-content: center;
+}
+
+.see_do_img img {
+    width: 50%;
+}
