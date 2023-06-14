@@ -93,6 +93,12 @@ nav img {
     justify-content: flex-end;
 }
 
-#landing-content div h3{
+#map-outer {
+    padding: 50px;
+}
 
+#map-outer h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
 }
