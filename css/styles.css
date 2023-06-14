@@ -184,6 +184,8 @@ video {
     object-fit: cover;
 }
 
+/* Main content styling */
+
 .see_do_img {
     display: flex;
     justify-content: space-between;
@@ -212,6 +214,8 @@ video {
     font-size: large;
     letter-spacing: 1px;
 }
+
+/* Floater styling */
 
 #seedo_floating {
     width: 300px;
