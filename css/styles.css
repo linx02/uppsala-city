@@ -59,10 +59,40 @@ nav img {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 5px solid black;
 }
 
 #hero-img h1 {
     text-transform: uppercase;
     font-size: xxx-large;
     font-weight: bold;
+}
+
+#landing-content h1 {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#landing-content img {
+    width: 20%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#landing-content div {
+    display: flex;
+    align-items: center;
+}
+
+#anders-celsius {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#landing-content div h3{
+
 }
