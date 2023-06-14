@@ -186,9 +186,14 @@ video {
 
 .see_do_img {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .see_do_img img {
     width: 50%;
+}
+
+.see_do_info {
+    height: 50vh;
+    background-color: #FE7A71;
 }
