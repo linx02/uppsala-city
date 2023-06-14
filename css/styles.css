@@ -243,3 +243,17 @@ video {
     justify-content: center;
     border-bottom: 5px solid black;
 }
+
+/* Contact form styling */
+
+#contactform-outer {
+    margin: 5%;
+    background-color: #FE7A71;
+    width: 150vh;
+    height: 80vh;
+}
+
+#contactform {
+    display: flex;
+    align-items: center;
+}
