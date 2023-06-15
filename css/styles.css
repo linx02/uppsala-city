@@ -90,10 +90,23 @@ nav img {
     border-bottom: 4px solid rgba(242, 227, 188, 0.5);
 }
 
+#hero-img > div{
+    max-width: 500px;
+    margin: 20px;
+    background-color: rgba(242, 227, 188, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#hero-img strong{
+    font-family: Moirai One, sans-serif;
+    font-weight: 1000;
+}
+
 #hero-img h1 {
     text-transform: uppercase;
     font-size: xxx-large;
     font-weight: bold;
+    padding: 10px;
 }
 
 /* Landing page content */
