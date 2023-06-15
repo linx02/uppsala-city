@@ -69,7 +69,9 @@ nav li {
 nav a {
     text-transform: uppercase;
     text-decoration: none;
-    color: #272727;
+    color: rgba(242,
+                    227,
+                    188);
     font-size: x-large;
 }
 
@@ -205,6 +207,9 @@ nav img {
 footer {
     height: 20vh;
     background-color: #6E6E72;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* SEE-DO PAGE */
@@ -240,15 +245,16 @@ video {
 }
 
 .see_do_info h1 {
+    color: #C1C1C3;
     padding-top: 4%;
     font-size: xx-large;
     font-weight: bold;
 }
 
 .see_do_info p {
+    color: #A1A1A5;
     padding: 5%;
-    font-size: large;
-    letter-spacing: 1px;
+    font-size: 1.1rem;
 }
 
 #tips{
