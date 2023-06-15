@@ -210,6 +210,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+footer div{
+    padding-top: 10px;
 }
 
 /* SEE-DO PAGE */
@@ -296,24 +301,31 @@ video {
 
 #contactform-outer {
     margin: 5%;
-    background-color: #FE7A71;
+    background-color: #6E6E72;
     width: 150vh;
     height: 80vh;
+    border-radius: 5%;
 }
 
 #contactform {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+    justify-content: space-around;
 }
 
 #contactform label {
-    font-size: x-large;
+    font-size: large;
     font-weight: bold;
 }
 
-#contactform input {
-    height: 10vh;
-    width: 100vh;
+#contactform input{
+    padding-right: 20px;
+}
+
+#contactform input[type="submit"] {
+    padding: 30px;
     margin-top: 5%;
+    border: none;
+    background-color: #272727;
 }
