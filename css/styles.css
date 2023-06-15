@@ -225,14 +225,18 @@ video {
 
 .see_do_img img {
     width: 50%;
-    border: 1px solid black;
+    border: 1px solid rgba(242,
+                227,
+                188, 0.5);
 }
 
 .see_do_info {
     height: 50vh;
-    background-color: #FE7A71;
+    background-color: #6E6E72;
     width: 50%;
-    border: 1px solid black;
+    border-top: 1px solid rgba(242,
+                227,
+                188, 0.5);
 }
 
 .see_do_info h1 {
@@ -247,14 +251,17 @@ video {
     letter-spacing: 1px;
 }
 
+#tips{
+    background-color: #626267;
+}
+
 /* Floater styling */
 
 #seedo_floating {
     width: 300px;
     height: 185px;
-    background-color: rgba(254,
-            122,
-            113, 0.9);
+    background-color: #6E6E72;
+    border-radius: 10%;
     position: absolute;
     top: 105vh;
     display: flex;
@@ -264,6 +271,9 @@ video {
 #seedo_floating h1 {
     font-size: xxx-large;
     font-weight: bold;
+    color: rgba(242,
+                227,
+                188);
 }
 
 #hero-img-contact {
