@@ -300,9 +300,11 @@ video {
 
 /* Contact form */
 
-#contactform-outer {
-    margin: 5%;
+#contact-outer{
+    background-color: #626267;
+    padding: 5%;
 }
+
 
 #contactform {
     display: flex;
@@ -315,12 +317,15 @@ video {
 #contactform label {
     font-size: large;
     font-weight: bold;
+    margin-left: 5%;
 }
 
 #contactform input {
     padding: 5px;
     margin-bottom: 10px;
     max-width: 500px;
+    width: 100%;
+    margin: auto;
 }
 
 #contactform input[type="submit"] {
@@ -350,6 +355,18 @@ legend{
     font-size: x-large;
     text-transform: uppercase;
     padding: 0 0.5em;
+    color: rgba(242, 227, 188);
+}
+
+fieldset label{
+    color: rgba(242, 227, 188);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+fieldset textarea{
+    width: 90%;
+    margin: auto;
 }
 
 @media (min-width:1300px) {
@@ -397,6 +414,9 @@ legend{
     }
     .see_do_info p{
         font-size: .6rem;
+    }
+    #contactform label {
+        margin-left: 0;
     }
 }
 
