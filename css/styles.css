@@ -269,29 +269,20 @@ video {
 }
 
 .see_do_info h1 {
-    color: #C1C1C3;
+    color: rgba(242, 227, 188);
     padding-top: 4%;
     font-size: xx-large;
     font-weight: bold;
 }
 
 .see_do_info p {
-    color: #A1A1A5;
+    color: #F5F5F5;
     padding: 5%;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
-
-/* Floater */
 
 #tips {
     background-color: #626267;
-}
-
-
-#seedo_floating h1 {
-    font-size: xxx-large;
-    font-weight: bold;
-    color: rgba(242, 227, 188);
 }
 
 /* Contact page */
@@ -361,6 +352,11 @@ legend{
     padding: 0 0.5em;
 }
 
+@media (min-width:1300px) {
+    .see_do_info p {
+        font-size: 1.1rem;
+    }
+}
 
 @media (max-width: 1000px) {
     #carl-von-linne, #anders-celsius {
@@ -375,6 +371,12 @@ legend{
     #anders-heading, #carl-heading{
         display: flex;
         justify-content: space-around;
+    }
+    .see_do_info p {
+        font-size: 0.7rem;
+    }
+    .see_do_info{
+        height: 45vh;
     }
 }
 
@@ -392,6 +394,9 @@ legend{
     nav ul{
         margin-top: 2vh;
         margin-bottom: 2vh;
+    }
+    .see_do_info p{
+        font-size: .6rem;
     }
 }
 
@@ -416,6 +421,16 @@ legend{
     .big_text{
         font-size: 1.5rem;
     }
+
+    .see_do_info p {
+        font-size: .5rem;
+    }
+    .see_do_info h1{
+        font-size: large;
+    }
+    .see_do_info{
+        height: 35vh;
+    }
 }
 
 @media (max-width:400px){
@@ -428,5 +443,11 @@ legend{
     #landing-content > div{
         margin-left: 1vh;
         margin-right: 1vh;
+    }
+    .see_do_info p {
+        font-size: .4rem;
+    }
+    .see_do_info{
+        height: 30vh;
     }
 }
