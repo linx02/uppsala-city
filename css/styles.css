@@ -34,7 +34,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #626267;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(242, 227, 188);
 }
 
 
@@ -45,10 +45,12 @@ nav {
 }
 
 .nav-header {
-    color: #272727;
+    color: rgba(242, 227, 188);
     margin-right: 20px;
     display: flex;
     align-items: center;
+    margin: 2px;
+    margin-bottom: 0;
 }
 
 nav ul {
@@ -84,7 +86,7 @@ nav img {
 
 #hero-img {
     height: 75vh;
-    background-image: url("../assets/images/landingpageimg.jpeg");
+    background-image: url("../assets/images/landingpageimg.webp");
     background-size: cover;
     display: flex;
     align-items: center;
@@ -158,6 +160,7 @@ nav img {
 
 #landing-content p{
     font-size:large;
+    color: #F5F5F5;
 }
 
 .content-heading {
@@ -184,6 +187,10 @@ nav img {
 
 
 /* Bottom content */
+
+#bottom-content{
+    background-color: #626267;
+}
 
 #see_do_btn {
     display: flex;
@@ -212,9 +219,6 @@ nav img {
     padding: 20px;
 }
 
-#seedo_outer {
-    background-color: #626267;
-}
 
 /* Footer */
 
@@ -229,6 +233,10 @@ footer {
 
 footer div {
     padding-top: 10px;
+}
+
+footer p {
+    color: #F5F5F5;
 }
 
 /* See & Do */
@@ -279,16 +287,6 @@ video {
     background-color: #626267;
 }
 
-#seedo_floating {
-    width: 300px;
-    height: 185px;
-    background-color: #6E6E72;
-    border-radius: 10%;
-    position: absolute;
-    top: 105vh;
-    display: flex;
-    align-items: center;
-}
 
 #seedo_floating h1 {
     font-size: xxx-large;
@@ -301,7 +299,7 @@ video {
 
 #hero-img-contact {
     height: 75vh;
-    background-image: url("../assets/images/herocontact.jpeg");
+    background-image: url("../assets/images/herocontact.webp");
     background-size: cover;
     display: flex;
     align-items: center;
@@ -354,6 +352,7 @@ fieldset{
     border: 1px solid #ccc;
     border-radius: 6px;
     max-width: 600px;
+    width: 100%;
 }
 
 legend{
@@ -384,9 +383,11 @@ legend{
         display: flex;
         flex-flow: column wrap;
     }
+    .nav-header{
+        margin-top: 2vh;
+    }
     nav img {
         justify-content: center;
-        margin-top: 2vh;
     }
     nav ul{
         margin-top: 2vh;
