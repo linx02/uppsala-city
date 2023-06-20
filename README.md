@@ -109,6 +109,13 @@ This was resolved by removing the first forward slash in all of the file paths.
 - CSS
     - No errors were returned
 
+- Accessibility
+    - Tested through wave.webaim.org
+        - Error with contrast
+        Fixed by changing link text color in footer
+        - Error with empty form button
+        Fixed by adding action to form
+
 ### Unfixed bugs
 
 No known bugs are left unfixed
@@ -130,7 +137,7 @@ The live link can be found here - https://linx02.github.io/uppsala-city/index.ht
     - The interactive map is provided by Google
 
 - Text
-    - Text for image context is generated with ChatGPT
+    - Text for images is generated with ChatGPT
 
 ### Media
 
