@@ -262,7 +262,7 @@ video {
 }
 
 .see_do_info {
-    height: 50vh;
+    height: 380px;
     background-color: #6E6E72;
     width: 50%;
     border-top: 1px solid rgba(242, 227, 188, 0.5);
@@ -393,7 +393,7 @@ fieldset textarea{
         font-size: 0.7rem;
     }
     .see_do_info{
-        height: 45vh;
+        height: 300px;
     }
 }
 
@@ -432,7 +432,7 @@ fieldset textarea{
         margin-right: 5vh;
     }
     iframe{
-        height: 50vh;
+        height: 300px;
     }
     footer p{
         margin-left: 5vh;
@@ -449,7 +449,7 @@ fieldset textarea{
         font-size: large;
     }
     .see_do_info{
-        height: 35vh;
+        height: 250px;
     }
 }
 
@@ -465,9 +465,9 @@ fieldset textarea{
         margin-right: 1vh;
     }
     .see_do_info p {
-        font-size: .4rem;
+        font-size: .45rem;
     }
     .see_do_info{
-        height: 30vh;
+        min-height: 200px;
     }
 }
