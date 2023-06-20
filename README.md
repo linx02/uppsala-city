@@ -142,7 +142,12 @@ The live link can be found here - https://linx02.github.io/uppsala-city/index.ht
 ### Media
 
 - Images
-    - All images are from google images
+    - Landing page image: https://images.squarespace-cdn.com/content/v1/5db2c1c870cf53160ba6a917/f5b8c489-617e-4217-bf67-ad63bc0e16cb/uppsala+cathedral+domkyrka+sweden+view+from+gotlandsparken
+    - Image of Carl von Linné: https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Carl_von_Linn%C3%A9.jpg/460px-Carl_von_Linn%C3%A9.jpg
+    - Image of Anders Celsius: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Anders-Celsius-Head.jpg/440px-Anders-Celsius-Head.jpg
+    - See & Do page: Image of Uppsala Domkyrka: https://www.svenskakyrkan.se/bilder/2354199/6329-58.jpg?DoProcessing=&w=1680
+    - See & Do page: Image of Uppsala Botanic Garden: https://www.nyaprojekt.se/wp-content/uploads/sites/6/2022/11/botaniska-tradgarden-i-uppsala-4.jpg
+    - Contact page image: https://www.shutterstock.com/shutterstock/photos/1757497988/display_1500/stock-photo-uppsala-cathedral-by-aerial-photography-1757497988.jpg
 
 - Video
     - Video is downloaded from YouTube. Link: https://youtu.be/5bmT5XvkmZo
