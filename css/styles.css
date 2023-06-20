@@ -14,6 +14,26 @@
 }
 
 /* General */
+
+.link-btn {
+    font-size: x-large;
+    color: rgba(242, 227, 188);
+    text-decoration: none;
+}
+
+.link-btn:hover {
+    cursor: pointer;
+    color: #FFF;
+}
+
+.link-btn {
+    margin-bottom: 10vh;
+    border: none;
+    border-radius: 10%;
+    background-color: #272727;
+    padding: 20px;
+}
+
 .center {
     display: flex;
     justify-content: center;
@@ -104,6 +124,8 @@ footer p {
     color: #F5F5F5;
 }
 
+/* Media queries */
+
 @media (min-width:1300px) {
     .see-do-info p {
         font-size: 1.1rem;
@@ -154,7 +176,6 @@ footer p {
         margin-left: 0;
     }
 }
-
 
 @media (max-width: 550px){
     #landing-content p{
