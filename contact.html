@@ -13,8 +13,12 @@
     <header>
         <nav>
             <div class="nav-header">
-                <img src="assets/images/navlogo.webp" alt="logo in the navbar">
-                <h2>UPPSALA</h2>
+                <a href ="index.html">
+                    <img src="assets/images/navlogo.webp" alt="Uppsala logo">
+                </a>
+                <a href="index.html">
+                    <h2>UPPSALA</h2>
+                </a>
             </div>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -30,16 +34,16 @@
     <div class="center" id="contact-outer">
         <fieldset>
             <legend>Contact Us</legend>
-            <form action="POST" id="contactform">
+            <form action="https://formdump.codeinstitute.net/" method="POST" id="contactform">
 
                 <label for="name">Name:</label>
-                <input type="text" id="name">
+                <input type="text" id="name" name="name">
                     
                 <label for="email">Email:</label>
-                <input type="email" id="email">
+                <input type="email" id="email" name="email">
                     
                 <label for="message">Message:</label>
-                <textarea name="textarea" id="message" cols="30" rows="10"></textarea>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
                 
                 <input type="submit">
             </form>

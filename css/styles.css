@@ -124,6 +124,10 @@ footer p {
     color: #F5F5F5;
 }
 
+footer a, footer a:active {
+    color: blue;
+}
+
 /* Media queries */
 
 @media (min-width:1300px) {
@@ -152,6 +156,10 @@ footer p {
     .see-do-info{
         height: 300px;
     }
+    #landing-content > div{
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
 }
 
 @media (max-width: 650px) {
@@ -175,6 +183,9 @@ footer p {
     #contactform label {
         margin-left: 0;
     }
+    #contactform textarea{
+        width: 100%;
+    }
 }
 
 @media (max-width: 550px){
@@ -183,10 +194,6 @@ footer p {
         padding-top: 2vh;
     }
 
-    #landing-content > div{
-        margin-left: 5vh;
-        margin-right: 5vh;
-    }
     iframe{
         height: 300px;
     }
