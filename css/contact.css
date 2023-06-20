@@ -1,0 +1,83 @@
+/* Contact page */
+/* Hero image */
+
+#hero-img-contact {
+    height: 75vh;
+    background-image: url("../assets/images/herocontact.webp");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px solid rgba(242, 227, 188, 0.5);
+}
+
+/* Contact form */
+
+#contact-outer{
+    background-color: #626267;
+    padding: 5%;
+}
+
+
+#contactform {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#contactform label {
+    font-size: large;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+#contactform input {
+    padding: 5px;
+    margin-bottom: 10px;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+#contactform input[type="submit"] {
+    padding: 20px;
+    margin-top: 5%;
+    border: none;
+    background-color: #272727;
+    max-width: 150px;
+    color: rgba(242, 227, 188);
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+}
+
+#contactform input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+fieldset{
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    max-width: 600px;
+    width: 100%;
+}
+
+legend{
+    font-size: x-large;
+    text-transform: uppercase;
+    padding: 0 0.5em;
+    color: rgba(242, 227, 188);
+}
+
+fieldset label{
+    color: rgba(242, 227, 188);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+fieldset textarea{
+    width: 90%;
+    margin: auto;
+}

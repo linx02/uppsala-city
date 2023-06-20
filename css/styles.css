@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
 
+@import url('landing.css');
+@import url('seedo.css');
+@import url('contact.css');
+
 * {
     font-family: Lato, sans-serif;
     font-weight: 300;
@@ -15,7 +19,7 @@
     justify-content: center;
 }
 
-.big_text {
+.big-text {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
@@ -37,13 +41,6 @@ nav {
     border-bottom: 1px solid rgba(242, 227, 188);
 }
 
-
-#uppsala {
-    font-family: 'Moirai One', cursive;
-    font-weight: 1000;
-    padding-left: 5%;
-}
-
 .nav-header {
     color: rgba(242, 227, 188);
     margin-right: 20px;
@@ -51,6 +48,12 @@ nav {
     align-items: center;
     margin: 2px;
     margin-bottom: 0;
+}
+
+.nav-header h2 {
+    font-family: 'Moirai One', cursive;
+    font-weight: 1000;
+    padding-left: 5%;
 }
 
 nav ul {
@@ -82,144 +85,6 @@ nav img {
     height: auto;
 }
 
-/* Landing hero */
-
-#hero-img {
-    height: 75vh;
-    background-image: url("../assets/images/landingpageimg.webp");
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 4px solid rgba(242, 227, 188, 0.5);
-}
-
-#hero-img > div{
-    max-width: 500px;
-    margin: 20px;
-    background-color: rgba(242, 227, 188, 0.5);
-    border: 1px solid rgba(0, 0, 0, 0.5);
-}
-
-#hero-img strong{
-    font-family: Moirai One, sans-serif;
-    font-weight: 1000;
-}
-
-#hero-img h1 {
-    text-transform: uppercase;
-    font-size: xxx-large;
-    font-weight: bold;
-    padding: 10px;
-}
-
-/* Landing page content */
-
-#landing-content {
-    background-color: #6E6E72;
-    padding-bottom: 3vh;
-}
-
-#carl-von-linne {
-    display: flex;
-    flex-flow: row nowrap;
-    align-content: center;
-
-    margin-left: 10vh;
-    margin-right: 10vh;
-    margin-bottom: 10vh;
-}
-
-#carl-von-linne > div {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-    padding: 5vh;
-}
-
-#anders-celsius {
-    display: flex;
-    flex-flow: row-reverse nowrap;
-    align-content: center;
-
-    margin-left: 10vh;
-    margin-right: 10vh;
-}
-
-#anders-celsius > div {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-    padding: 5vh;
-}
-
-#anders-heading{
-    display: flex;
-    justify-content: flex-end;
-}
-
-#landing-content p{
-    font-size:large;
-    color: #F5F5F5;
-}
-
-.content-heading {
-    color: rgba(242, 227, 188);
-}
-
-#landing-content img {
-    height: 40vh;
-    border-radius: 48%;
-}
-
-/* iframe map */
-
-#map-outer {
-    padding: 50px;
-    background-color: #626267;
-}
-
-#map-outer h1 {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 3%;
-}
-
-
-/* Bottom content */
-
-#bottom-content{
-    background-color: #626267;
-}
-
-#see_do_btn {
-    display: flex;
-    justify-content: center;
-    width: 20vh;
-    height: 5vh;
-    background-color: rgba(242, 227, 188, 0.5);
-}
-
-.link_btn a {
-    font-size: x-large;
-    color: rgba(242, 227, 188);
-    text-decoration: none;
-}
-
-.link_btn a:hover {
-    cursor: pointer;
-    color: #FFF;
-}
-
-.link_btn {
-    margin-bottom: 10vh;
-    border: none;
-    border-radius: 10%;
-    background-color: #272727;
-    padding: 20px;
-}
-
-
 /* Footer */
 
 footer {
@@ -239,138 +104,8 @@ footer p {
     color: #F5F5F5;
 }
 
-/* See & Do */
-/* Video hero */
-
-video {
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* Page content */
-
-.see_do_img {
-    display: flex;
-    justify-content: space-between;
-}
-
-.see_do_img img {
-    width: 50%;
-    border: 1px solid rgba(242, 227, 188, 0.5);
-}
-
-.see_do_info {
-    height: 380px;
-    background-color: #6E6E72;
-    width: 50%;
-    border-top: 1px solid rgba(242, 227, 188, 0.5);
-}
-
-.see_do_info h1 {
-    color: rgba(242, 227, 188);
-    padding-top: 4%;
-    font-size: xx-large;
-    font-weight: bold;
-}
-
-.see_do_info p {
-    color: #F5F5F5;
-    padding: 5%;
-    font-size: 0.9rem;
-}
-
-#tips {
-    background-color: #626267;
-}
-
-/* Contact page */
-/* Hero image */
-
-#hero-img-contact {
-    height: 75vh;
-    background-image: url("../assets/images/herocontact.webp");
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 5px solid rgba(242, 227, 188, 0.5);
-}
-
-/* Contact form */
-
-#contact-outer{
-    background-color: #626267;
-    padding: 5%;
-}
-
-
-#contactform {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-    justify-content: space-around;
-    padding: 20px;
-}
-
-#contactform label {
-    font-size: large;
-    font-weight: bold;
-    margin-left: 5%;
-}
-
-#contactform input {
-    padding: 5px;
-    margin-bottom: 10px;
-    max-width: 500px;
-    width: 100%;
-    margin: auto;
-}
-
-#contactform input[type="submit"] {
-    padding: 20px;
-    margin-top: 5%;
-    border: none;
-    background-color: #272727;
-    max-width: 150px;
-    color: rgba(242, 227, 188);
-    text-transform: uppercase;
-    font-size: large;
-    font-weight: bold;
-}
-
-#contactform input[type="submit"]:hover{
-    cursor: pointer;
-}
-
-fieldset{
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    max-width: 600px;
-    width: 100%;
-}
-
-legend{
-    font-size: x-large;
-    text-transform: uppercase;
-    padding: 0 0.5em;
-    color: rgba(242, 227, 188);
-}
-
-fieldset label{
-    color: rgba(242, 227, 188);
-    padding-bottom: 5px;
-    padding-top: 5px;
-}
-
-fieldset textarea{
-    width: 90%;
-    margin: auto;
-}
-
 @media (min-width:1300px) {
-    .see_do_info p {
+    .see-do-info p {
         font-size: 1.1rem;
     }
 }
@@ -385,14 +120,14 @@ fieldset textarea{
         max-width: 45vh;
     }
     
-    #anders-heading, #carl-heading{
+    .content-heading, #anders-celsius h2{
         display: flex;
         justify-content: space-around;
     }
-    .see_do_info p {
+    .see-do-info p {
         font-size: 0.7rem;
     }
-    .see_do_info{
+    .see-do-info{
         height: 300px;
     }
 }
@@ -412,7 +147,7 @@ fieldset textarea{
         margin-top: 2vh;
         margin-bottom: 2vh;
     }
-    .see_do_info p{
+    .see-do-info p{
         font-size: .6rem;
     }
     #contactform label {
@@ -438,17 +173,17 @@ fieldset textarea{
         margin-left: 5vh;
         margin-right: 5vh;
     }
-    .big_text{
+    .big-text{
         font-size: 1.5rem;
     }
 
-    .see_do_info p {
+    .see-do-info p {
         font-size: .5rem;
     }
-    .see_do_info h1{
+    .see-do-info h1{
         font-size: large;
     }
-    .see_do_info{
+    .see-do-info{
         height: 250px;
     }
 }
@@ -457,17 +192,17 @@ fieldset textarea{
     nav ul li a{
         font-size: 75%;
     }
-    .big_text{
+    .big-text{
         font-size: 1rem;
     }
     #landing-content > div{
         margin-left: 1vh;
         margin-right: 1vh;
     }
-    .see_do_info p {
+    .see-do-info p {
         font-size: .45rem;
     }
-    .see_do_info{
+    .see-do-info{
         min-height: 200px;
     }
 }

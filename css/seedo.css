@@ -1,0 +1,45 @@
+/* See & Do */
+/* Video hero */
+
+video {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Page content */
+
+.see-do-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.see-do-img img {
+    width: 50%;
+    border: 1px solid rgba(242, 227, 188, 0.5);
+}
+
+.see-do-info {
+    height: 380px;
+    background-color: #6E6E72;
+    width: 50%;
+    border-top: 1px solid rgba(242, 227, 188, 0.5);
+}
+
+.see-do-info h1 {
+    color: rgba(242, 227, 188);
+    padding-top: 4%;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.see-do-info p {
+    color: #F5F5F5;
+    padding: 5%;
+    font-size: 0.9rem;
+}
+
+#tips {
+    background-color: #626267;
+}

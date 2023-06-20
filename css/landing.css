@@ -1,0 +1,129 @@
+/* Landing hero */
+
+#hero-img {
+    height: 75vh;
+    background-image: url("../assets/images/landingpageimg.webp");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 4px solid rgba(242, 227, 188, 0.5);
+}
+
+#hero-img > div{
+    max-width: 500px;
+    margin: 20px;
+    background-color: rgba(242, 227, 188, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#hero-img strong{
+    font-family: Moirai One, sans-serif;
+    font-weight: 1000;
+}
+
+#hero-img h1 {
+    text-transform: uppercase;
+    font-size: xxx-large;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Landing page content */
+
+#landing-content {
+    background-color: #6E6E72;
+    padding-bottom: 3vh;
+}
+
+#carl-von-linne {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-bottom: 10vh;
+}
+
+#anders-celsius {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-content: center;
+
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+#carl-von-linne > div, #anders-celsius > div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding: 5vh;
+}
+
+#anders-celsius h2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#landing-content p{
+    font-size:large;
+    color: #F5F5F5;
+}
+
+.content-heading {
+    color: rgba(242, 227, 188);
+}
+
+#landing-content img {
+    height: 40vh;
+    border-radius: 48%;
+}
+
+/* iframe map */
+
+#map-outer {
+    padding: 50px;
+    background-color: #626267;
+}
+
+#map-outer h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+
+/* Bottom content */
+
+#bottom-content{
+    background-color: #626267;
+}
+
+#see_do_btn {
+    display: flex;
+    justify-content: center;
+    width: 20vh;
+    height: 5vh;
+    background-color: rgba(242, 227, 188, 0.5);
+}
+
+.link-btn a {
+    font-size: x-large;
+    color: rgba(242, 227, 188);
+    text-decoration: none;
+}
+
+.link-btn a:hover {
+    cursor: pointer;
+    color: #FFF;
+}
+
+.link-btn {
+    margin-bottom: 10vh;
+    border: none;
+    border-radius: 10%;
+    background-color: #272727;
+    padding: 20px;
+}
