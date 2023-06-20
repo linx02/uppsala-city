@@ -16,17 +16,17 @@
     <header>
         <nav>
             <div class="nav-header">
-                <a href ="index.html">
+                <a href ="index.html" aria-label="Home page">
                     <img src="assets/images/navlogo.webp" alt="Uppsala logo">
                 </a>
-                <a href="index.html">
+                <a href="index.html" aria-label="Home page">
                     <h2>UPPSALA</h2>
                 </a>
             </div>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="seedo.html">See & Do</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html" aria-label="Home page">Home</a></li>
+                <li><a href="seedo.html" aria-label="See & Do page">See&Do</a></li>
+                <li><a href="contact.html" aria-label="Contact page">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -40,13 +40,13 @@
             <form action="https://formdump.codeinstitute.net/" method="POST" id="contactform">
 
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name" required>
                     
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" required>
                     
                 <label for="message">Message:</label>
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <textarea name="message" id="message" cols="30" rows="10" required></textarea>
                 
                 <input type="submit" value="SKICKA">
             </form>
@@ -56,8 +56,8 @@
     <footer>
         <p>© 2023 MyWebsite. All rights reserved. | Privacy Policy | Terms of Service</p>
         <div class="center">
-            <p>Project for: </p>
-            <a href="https://www.codeinstitute.net" target="_blank">Code Institute</a>
+            <p>Project for:</p>
+            <a href="https://www.codeinstitute.net" target="_blank" aria-label="Website of code institute">Code Institute</a>
         </div>
     </footer>
 </body>
