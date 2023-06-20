@@ -1,39 +1,141 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Uppsala City
 
-Welcome,
+Uppsala City is a site that hopes to provide useful information for tourists wanting to visit Sweden.
+The website is targeted to people interested in visiting Uppsala and will provide info surrounding the history of the city aswell as tips for tourist attractions.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## Existing features
 
-## Codeanywhere Reminders
+* Navigation bar
+    - Featured and identical on all three pages, fully responsive navigation bar with logo and clickable links.
+    - Will allow users to easily navigate thorughout the site without having to use the browsers back and forward buttons.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+![Navigation bar](https://github.com/linx02/uppsala-city/blob/main/media/navigationbar.png)
 
-`python3 -m http.server`
+* Landing page image
+    - The landing image is a photograph of Uppsala City, which the site revloves around.
+    - Features a text overlay welcoming the user to the site
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![Landing page image](https://github.com/linx02/uppsala-city/blob/main/media/landingpage_image.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+* Landing page content
+    - Provides information of famous people from the city
+    - Designed to not be heavy and easy for users to digest
 
-`http_server`
+![Landing page content](https://github.com/linx02/uppsala-city/blob/main/media/landingpage_content.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Map
+    - An interactive map of the city
+    - Allows users to easily explore the city via google maps
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+[!Map of Uppsala City](https://github.com/linx02/uppsala-city/blob/main/media/map.png)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* Link to next page
+    - Encourages users to further explore the page using a clickable link
 
-To log into the Heroku toolbelt CLI:
+[!Link to next page](https://github.com/linx02/uppsala-city/blob/main/media/calltoaction.png)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* Footer
+    - Footer to mark the end of the page
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+[!Footer](https://github.com/linx02/uppsala-city/blob/main/media/footer.png)
 
----
+# See & Do page
 
-Happy coding!
+The purpose of the See & Do page is to provide users with tips for tourist attractions with images and descriptive text.
+
+* See & Do page video
+    - Lets user watch recorded footage of the city
+    - Video is played muted and allows all controls
+
+[!Video of Uppsala city](https://github.com/linx02/uppsala-city/blob/main/media/video.png)
+
+* Tourist attraction images with descriptive text
+    - Provides users with high resolution images of some of the tourist attractions of the city.
+    - Gives users context to the images
+
+[!Images of Uppsala gothic cathedral and botanic garden](https://github.com/linx02/uppsala-city/blob/main/media/touristattraction_images.png)
+[!Image context](https://github.com/linx02/uppsala-city/blob/main/media/touristattraction_text.png)
+
+* Link to next page
+
+[!Link to next page](https://github.com/linx02/uppsala-city/blob/main/media/calltoaction2.png)
+
+# Contact page
+
+The contact page provides a way for users to contact the page author. It is not working and only there for design purposes.
+
+* Contact page image
+    - Another image of the city
+
+[!Image of Uppsala city](https://github.com/linx02/uppsala-city/blob/main/media/contactpage_image.png)
+
+* Contact form
+    - Allows users to contact page author. Not working
+
+[!Contact form](https://github.com/linx02/uppsala-city/blob/main/media/contactform.png)
+
+## Testing
+
+ - I have tested the responsiveness of the website using Googles DevTools aswell as visiting the github link through my phone. The website should be fully responsive on all devices.
+ - I have tested the links to all pages and they work as they should.
+ - I have tested that the footer link opens in a new tab which was a requirement in the Learning Outcomes.
+
+ On smaller screen sizes the layout of the page changes to a more column-structured layout suitable for scrolling.
+
+### Bugs i found
+
+ When working on the responsiveness I came across alot of issues.
+
+ - Whitespace on the right-side of the screen on smaller devices
+ - text spilling out of divs and overlapping other elements
+ - Images becoming stretched or too small on smaller device screens
+
+ All of these were solved using flexboxes, media queries and responsive units such as rems, ems, vh, vw, % instead of absolute units such as px.
+
+- When deploying project to github pages I found that pieces of my css styling and none of my images were loading
+
+This was resolved by removing the first forward slash in all of the file paths.
+
+### Validator testing
+
+- HTML
+    - Errors saying section tags being unnecessary.
+        This was resolved by changing them to divs.
+    - Errors with iframe styling and attributes
+        This was resolved by removing all attributes and styling in seperate CSS file.
+
+- CSS
+    - No errors were returned
+
+### Unfixed bugs
+
+No known bugs are left unfixed
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://linx02.github.io/uppsala-city/index.html
+
+## Credits
+
+### Content
+
+- Map
+    - The interactive map is provided by Google
+
+- Text
+    - Text for image context is generated with ChatGPT
+
+### Media
+
+- Images
+    - All images are from google images
+
+- Video
+    - Video is downloaded from YouTube. Link: https://youtu.be/5bmT5XvkmZo
