@@ -120,12 +120,14 @@ footer div {
     padding-top: 10px;
 }
 
+/*##F5F5F5*/
+
 footer p {
-    color: #F5F5F5;
+    color: white;
 }
 
 footer a, footer a:active {
-    color: red;
+    color: white;
 }
 
 /* Media queries */
