@@ -112,9 +112,9 @@ This was resolved by removing the first forward slash in all of the file paths.
 - Accessibility
     - Tested through wave.webaim.org
         - Error with contrast
-        Fixed by changing link text color in footer
+        Fixed by changing coloring in footer
         - Error with empty form button
-        Fixed by adding action to form
+        Fixed by adding value to input of type submit
 
 ### Unfixed bugs
 
