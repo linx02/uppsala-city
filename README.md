@@ -29,17 +29,17 @@ The website is targeted to people interested in visiting Uppsala and will provid
     - An interactive map of the city
     - Allows users to easily explore the city via google maps
 
-[!Map of Uppsala City](https://github.com/linx02/uppsala-city/blob/main/media/map.png)
+![Map of Uppsala City](https://github.com/linx02/uppsala-city/blob/main/media/map.png)
 
 * Link to next page
     - Encourages users to further explore the page using a clickable link
 
-[!Link to next page](https://github.com/linx02/uppsala-city/blob/main/media/calltoaction.png)
+![Link to next page](https://github.com/linx02/uppsala-city/blob/main/media/calltoaction.png)
 
 * Footer
     - Footer to mark the end of the page
 
-[!Footer](https://github.com/linx02/uppsala-city/blob/main/media/footer.png)
+![Footer](https://github.com/linx02/uppsala-city/blob/main/media/footer.png)
 
 # See & Do page
 
@@ -49,18 +49,18 @@ The purpose of the See & Do page is to provide users with tips for tourist attra
     - Lets user watch recorded footage of the city
     - Video is played muted and allows all controls
 
-[!Video of Uppsala city](https://github.com/linx02/uppsala-city/blob/main/media/video.png)
+![Video of Uppsala city](https://github.com/linx02/uppsala-city/blob/main/media/video.png)
 
 * Tourist attraction images with descriptive text
     - Provides users with high resolution images of some of the tourist attractions of the city.
     - Gives users context to the images
 
-[!Images of Uppsala gothic cathedral and botanic garden](https://github.com/linx02/uppsala-city/blob/main/media/touristattraction_images.png)
-[!Image context](https://github.com/linx02/uppsala-city/blob/main/media/touristattraction_text.png)
+![Images of Uppsala gothic cathedral and botanic garden](https://github.com/linx02/uppsala-city/blob/main/media/touristattraction_images.png)
+![Image context](https://github.com/linx02/uppsala-city/blob/main/media/touristattraction_text.png)
 
 * Link to next page
 
-[!Link to next page](https://github.com/linx02/uppsala-city/blob/main/media/calltoaction2.png)
+![Link to next page](https://github.com/linx02/uppsala-city/blob/main/media/calltoaction2.png)
 
 # Contact page
 
@@ -69,12 +69,12 @@ The contact page provides a way for users to contact the page author. It is not 
 * Contact page image
     - Another image of the city
 
-[!Image of Uppsala city](https://github.com/linx02/uppsala-city/blob/main/media/contactpage_image.png)
+![Image of Uppsala city](https://github.com/linx02/uppsala-city/blob/main/media/contactpage_image.png)
 
 * Contact form
     - Allows users to contact page author. Not working
 
-[!Contact form](https://github.com/linx02/uppsala-city/blob/main/media/contactform.png)
+![Contact form](https://github.com/linx02/uppsala-city/blob/main/media/contactform.png)
 
 ## Testing
 
